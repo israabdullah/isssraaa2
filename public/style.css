@@ -24,7 +24,12 @@ body {
     color: #333;
     margin-bottom: 20px;
 }
-input {
+.popup p {
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+.input-field {
     width: 100%;
     padding: 15px;
     border: 2px solid #e0e0e0;
@@ -32,8 +37,9 @@ input {
     font-size: 16px;
     margin-bottom: 15px;
     outline: none;
+    transition: border 0.2s;
 }
-input:focus {
+.input-field:focus {
     border-color: #667eea;
 }
 .btn-submit {
@@ -65,8 +71,10 @@ input:focus {
 .btn-cancel:hover {
     background: #e0e0e0;
 }
-#status {
-    margin: 15px 0;
-    font-weight: bold;
-    min-height: 20px;
+.hidden {
+    display: none;
+}
+#main-content {
+    text-align: center;
+    color: white;
 }
