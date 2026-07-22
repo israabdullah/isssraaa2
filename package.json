@@ -1,19 +1,13 @@
 {
- "name": "isssraaa",
- "version": "1.0.0",
- "description": "Telegram notifications",
- "main": "server.js",
- "scripts": {
- "start": "node server.js",
- "dev": "node server.js"
-},
- "keywords": ["telegram"],
- "author": "",
- "license": "ISC",
- "type": "commonjs",
- "dependencies": {
- "dotenv": "^17.4.2",
- "express": "^5.2.1",
- "node-telegram-bot-api": "^0.30.0"
-}
+  "name": "isssraaa",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "node-telegram-bot-api": "^0.30.0"
+  }
 }
