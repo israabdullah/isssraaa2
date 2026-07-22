@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="popup" id="popup">
+        <h2>🔒 الوصول المطلوب</h2>
+        <p>للدخول إلى هذه الصفحة، يرجى إدخال اسمك للمتابعة</p>
+        
+        <form id="loginForm">
+            <input type="text" id="username" class="input-field" placeholder="أدخل اسمك هنا" required>
+            <button type="submit" class="btn-submit">دخول</button>
+        </form>
+        
+        <button class="btn-cancel" onclick="cancelAccess()">❌ إلغاء</button>
+    </div>
+
+    <div id="main-content" class="hidden">
+        <h1> مرحباً بك!</h1>
+        <p>شكراً لتسجيل الدخول</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
